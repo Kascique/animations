@@ -1,0 +1,86 @@
+body {
+  font: normal 1em "Helvetica Neue", Roboto, "Open Sans", Helvetica, Arial,
+    sans-serif;
+  background: #1d2025;
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.grad1 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad2 {
+  background: -webkit-linear-gradient(left, #f9b2b2, #c90404);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad3 {
+  background: repeating-linear-gradient(
+    -45deg,
+    #de9dd4,
+    #de9dd4 5px,
+    white 5px,
+    white 10px
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad4 {
+  background-image: radial-gradient(circle, red, yellow, green);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad5 {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad6 {
+  background: repeating-linear-gradient(
+    -45deg,
+    #fcb045,
+    #fd1d1d 5px,
+    #833ab4 5px,
+    white 10px
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad7 {
+  background: rgb(213, 37, 37);
+  background: linear-gradient(
+    90deg,
+    rgba(213, 37, 37, 1) 0%,
+    rgba(227, 38, 137, 0.9304096638655462) 6%,
+    rgba(175, 4, 196, 1) 14%,
+    rgba(99, 3, 216, 1) 19%,
+    rgba(2, 168, 226, 1) 24%,
+    rgba(0, 212, 255, 1) 28%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
